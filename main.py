@@ -1,6 +1,6 @@
-from selective_evolution import SelectiveEvolution
+from source.selective_evolution import SelectiveEvolution
 
-from utils import (
+from source.utils import (
     read_df, feature_importance_viz, confusion_matrix_viz, round_with_thresh,
     threshold_optimizer
 )
