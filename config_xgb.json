@@ -1,0 +1,14 @@
+{
+    "file_type": "csv",
+    "file_path": "./df.csv",
+    "predictive_algorithm": "xgboost",
+    "model_params": {
+        "loss":["exponential"],
+        "learning_rate": [0.01],
+        "n_estimators": [100, 500],
+        "criterion": ["friedman_mse"],
+        "min_samples_split": [2,5,10],
+        "min_samples_leaf": [1,5,10],
+        "warm_start": ["True"]
+    }
+}

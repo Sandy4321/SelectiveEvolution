@@ -1,0 +1,13 @@
+{
+    "file_type": "csv",
+    "file_path": "./df.csv",
+    "predictive_algorithm": "random_forest",
+    "model_params": {
+    "n_estimators": [100, 250, 500],
+    "criterion": ["gini"],
+    "max_depth": [3,5,10],
+    "min_samples_split": [2,4,8],
+    "min_samples_leaf": [3,5,10],
+    "class_weight": ["balanced", "None"]
+    }
+}
