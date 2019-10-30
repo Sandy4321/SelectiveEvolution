@@ -1,6 +1,6 @@
 {
-    "file_type": "csv",
-    "file_path": "./df.csv",
+    "file_type": "PUT FILE TYPE",
+    "file_path": "PUT FILE PATH",
     "predictive_algorithm": "xgboost",
     "model_params": {
         "loss":["exponential"],
